@@ -1,0 +1,15 @@
+
+/*Selector Universal -> *  */
+
+*{
+  background-color: lightcoral;
+}
+
+/*Selector de tipo o etiqueta -> Nombre de la etiqueta */
+h1{
+  background-color: lightcyan;
+}
+
+p{
+  background-attachment: lightgreen;
+}

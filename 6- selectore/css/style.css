@@ -1,6 +1,7 @@
 
 /* SELECTORES */
 
+
 /* 
     Selectores Simples
         Selectores elementales
@@ -26,7 +27,22 @@
             Selector de hijo directo > -> Selecciona SOLO los hijos directos
 */
 
-.container > p{
+/*Selector Universal -> *  */
+
+
+*{
+  background-color: lightcoral;
+}
+
+/*Selector de tipo o etiqueta -> Nombre de la etiqueta */
+h1{
+  background-color: lightcyan;
+}
+
+p{
+  background-attachment: lightgreen;
+}
+/* .container > p{
   background-color: tomato;
 }
 
@@ -36,7 +52,7 @@
 
 .text-2 ~ .text{
   background-color: teal;
-} 
+}  */
 
 /* .text,
 .text-2,
